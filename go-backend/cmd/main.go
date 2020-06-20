@@ -31,6 +31,7 @@ func main() {
 
 func newRouter(ctx context.Context) (chi.Router, error) {
 	logger := log.GetLogger(ctx)
+	logger.Info("Initiating router")
 
 	rtr := chi.NewRouter()
 
