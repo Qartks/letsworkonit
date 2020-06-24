@@ -11,7 +11,7 @@ clean:
 
 .PHONY: up
 up:
-	docker-compose up --timeout=1 --remove-orphans server
+	docker-compose up --timeout=1 --remove-orphans
 
 .PHONY: down
 down:
